@@ -40,7 +40,7 @@ const Translate = (props) => {
       <div className="translate-bg">
         <div className="content-limiter">
           <div className="translation-content">
-            <img className="translate-image" src="./resources/logo.png" />
+            <img className="translate-image" src="./resources/Logo.png" />
             <InputBox placeholder="Text to translate" onSubmit={onSubmit} />
           </div>
           <div className="translation-content">{output}</div>
